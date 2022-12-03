@@ -1,0 +1,219 @@
+# Следующая команда работает для загрузки при использовании Git для Windows:
+# curl -LOf http://gist.githubusercontent.com/kmorcinek/2710267/raw/.gitignore
+#
+# Загрузите этот файл с помощью PowerShell v3 под Windows со следующей командой:
+# Вызов-WebRequest https://gist.githubusercontent.com/kmorcinek/2710267/raw / -Выходной файл .gitignore
+#
+# или wget:
+# wget --сертификат без проверки http://gist.githubusercontent.com/kmorcinek/2710267/raw/.gitignore
+
+# Пользовательские файлы
+*.suo
+*.user
+* .sln.docstates
+
+# Результаты сборки
+[Dd]ebug/
+[Rr]elease/
+x64/
+[Bb]в/
+[Oo]bj/
+# папка сборки в настоящее время используется для сценариев сборки и не должна игнорироваться
+#сборка/
+
+# Пакеты NuGet
+*.nupkg
+# Папка packages может быть проигнорирована из-за восстановления пакета
+**/пакеты/*
+# кроме build/ , который используется в качестве целевого объекта MSBuild.
+**!/пакеты/сборка/
+# Раскомментируйте, если необходимо, однако, как правило, он будет восстановлен при необходимости
+#!**/packages/repositories.config
+
+# Результаты тестирования MSTest
+[Tt] есть [Rr] результат */
+[Bb] uild[Ll]og.*
+
+*_i.c
+*_p.c
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+.сборки
+*.pidb
+*.scc
+
+# Файлы кэша Visual C ++
+ipch/
+*.точки доступа
+*.ncb
+*.opensdf
+*.sdf
+*.cachefile
+
+# Профилировщик Visual Studio
+*.psess
+*.vsp
+*.vspx
+
+# Инструментарий автоматизации руководства
+*.gpState
+
+# ReSharper - это надстройка для программирования .NET
+*_ReSharper/
+.*[Rr] e[Ss]харпер
+
+# TeamCity - это надстройка для сборки
+_TeamCity*
+
+# dotCover - это инструмент покрытия кода
+*.dotCover
+
+# NCrunch
+*.ncrunch*
+.* crunch*.local.xml
+
+# Папка вывода Installshield
+[Ee]xpress/
+
+# DocProject - это надстройка генератора документации
+DocProject/buildhelp/
+DocProject/Help/*.HxT
+DocProject/Help/*.HxC
+DocProject/Help/*.hhc
+DocProject/Help/*.hhk
+DocProject/Help/*.hhp
+DocProject/Help/Html2
+DocProject/Help/html
+
+# Каталог с одним щелчком мыши
+опубликовать/
+
+# Опубликовать веб-вывод
+*.Publish.xml
+
+# Выходные данные сборки Windows Azure
+csx
+*.build.csdef
+
+# Каталог пакетов приложений магазина Windows
+Пакеты приложений/
+
+# Другие
+*.Cache
+ClientBin/
+[Ss]введите [Cc]op.*
+~$*
+*~
+*.dbmdl
+.*[Pp]ublish.xml
+*.pfx
+*.publishsettings
+modulesbin/
+tempbin/
+
+# Файл сайта EPiServer (VPP)
+AppData/
+
+# RIA/Проекты Silverlight
+Сгенерированный код/
+
+# Резервное копирование и создание отчетов о файлах при преобразовании старого файла проекта в новый
+# Версия Visual Studio. Резервные копии файлов не нужны, потому что у нас есть git ;-)
+_ улучшение_порт_файлов/
+*Резервное копирование/
+Список обновлений*.XML
+Список обновлений*.htm
+
+# vim
+*.txt~
+*.swp
+*.swo
+
+# Временные файлы при открытии LibreOffice в ubuntu
+.~блокировка.*
+ 
+# svn
+.svn
+
+# CVS - управление версиями
+**/CVS/
+
+# Остатки от разрешения конфликтов в системе управления версиями
+*.origin
+
+# Файлы SQL Server
+**/App_Data/*.mdf
+**/App_Data/*.ldf
+**/App_Data/*.sdf
+
+
+#Сгенерированные файлы LightSwitch
+Созданные статьи/
+_Pvt_Extensions/
+ModelManifest.xml
+
+# =========================
+# Осколки Windows
+# =========================
+
+# Кэширование файлов образов Windows
+Thumbs.db
+ehthumbs.db
+
+# Файл конфигурации папки
+Desktop.ini
+
+# Корзина, используемая в общих файловых ресурсах
+$RECYCLE.BIN/
+
+# Файлы, созданные ОС #
+Значок?
+
+# Файлы хранилища настольных компьютеров Mac
+.DS_Store
+
+# Кэш компилятора SASS
+.sass-кэш
+
+# Visual Studio 2014 CTP
+**/*.sln.ide
+
+# Visual Studio temp что-то
+.vs/
+
+# материал для dotnet
+project.lock.json
+
+# ПРОТИВ 2015+
+* .vc.vc.opendb
+*.vc.db
+
+# Rider
+.идея/
+
+# Код Visual Studio
+.vscode/
+
+# Папка вывода, используемая Webpack или другими FE-материалами
+**/node_modules/*
+**/wwwroot/*
+
+# Специфичный для конкретного потока
+*.feature.cs
+*.feature.xlsx .*
+*.Specs_*.html
